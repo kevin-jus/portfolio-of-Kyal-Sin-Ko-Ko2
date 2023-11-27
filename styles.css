@@ -1,0 +1,155 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Home section styles */
+#home {
+  background-color: #000;
+  padding: 100px;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 48px;
+  color: #ff00ff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(255, 0, 255, 0.5);
+}
+
+#home p {
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* About section styles */
+#about {
+  background-color: #000;
+  padding: 100px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 36px;
+  color: #00ffff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5);
+}
+
+#about p {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #000;
+  padding: 100px;
+  text-align: center;
+}
+
+.img img{
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projects h2 {
+  font-size: 36px;
+  color: #ff00ff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(255, 0, 255, 0.5);
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project h3 {
+  font-size: 24px;
+  color: #00ffff;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 255, 255, 0.5);
+}
+
+.project p {
+  font-size: 24px;
+  color: #fff;
+}
+
+.project img {
+  margin-bottom: auto;
+  filter: brightness(70%);
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #000;
+  padding: 100px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 36px;
+  color: #ff00ff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(255, 0, 255, 0.5);
+}
+
+#contact p {
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Add responsive styles here */
+}
